@@ -1,0 +1,5 @@
+araque\porqueras\Gmao\services\PreventivosService.class
+araque\porqueras\Gmao\controllers\PreventivosController.class
+araque\porqueras\Gmao\repositories\PreventivosRepository.class
+araque\porqueras\Gmao\models\Preventivos.class
+araque\porqueras\Gmao\GmaoApplication.class
