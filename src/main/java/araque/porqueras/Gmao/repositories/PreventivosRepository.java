@@ -16,5 +16,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PreventivosRepository extends CrudRepository<Preventivos, Long> {
 
-    public abstract ArrayList<Preventivos> findByDescripcionEquipo(String descripcionEquipo);
+    //public abstract ArrayList<Preventivos> findById(String descripcionEquipo);
 }
