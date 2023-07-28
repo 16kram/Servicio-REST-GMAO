@@ -46,9 +46,9 @@ public class UsuariosController {
     public String eliminarUsuarioPorId(@PathVariable("id") int id) {
         boolean ok = this.usuariosService.eliminarUsuario(id);
         if (ok) {
-            return "Se eliminó el preventivo";
+            return "Se eliminó el usuario";
         } else {
-            return "No se pudo eliminar el preventivo";
+            return "No se pudo eliminar el usuario";
         }
     }
 
