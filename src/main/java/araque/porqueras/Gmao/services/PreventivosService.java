@@ -32,7 +32,7 @@ public class PreventivosService {
     public Optional<Preventivos> obtenerPreventivoPorId(Long id) {
         return preventivosRepository.findById(id);
     }
-
+    
     public boolean eliminarPreventivo(Long id) {
         try {
             preventivosRepository.deleteById(id);

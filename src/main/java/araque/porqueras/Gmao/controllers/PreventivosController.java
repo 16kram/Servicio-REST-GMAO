@@ -33,18 +33,16 @@ public class PreventivosController {
         return preventivosService.obtenerPreventivos();
     }
 
-    
     @GetMapping(path = "/{id}")
     public Optional<Preventivos> obtenerPreventivoPorId(@PathVariable("id") Long id) {
         return this.preventivosService.obtenerPreventivoPorId(id);
     }
-    
+
     @PostMapping()
     public Preventivos guardarPreventivos(@RequestBody Preventivos preventivos) {
         return this.preventivosService.guardarPreventivo(preventivos);
     }
 
-    
     @DeleteMapping(path = "/{id}")
     public String eliminarPreventivoPorId(@PathVariable("id") Long id) {
         boolean ok = this.preventivosService.eliminarPreventivo(id);

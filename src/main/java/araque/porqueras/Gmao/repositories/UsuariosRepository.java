@@ -4,17 +4,13 @@
  */
 package araque.porqueras.Gmao.repositories;
 
-import araque.porqueras.Gmao.models.Preventivos;
-import java.util.ArrayList;
+import araque.porqueras.Gmao.models.Usuarios;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author char_
  */
-@Repository
-public interface PreventivosRepository extends CrudRepository<Preventivos, Long> {
-
-    //public abstract ArrayList<Preventivos> findByEstadoPreventivo(String estadoPreventivo);
+public interface UsuariosRepository extends CrudRepository<Usuarios,Integer>{
+    
 }
