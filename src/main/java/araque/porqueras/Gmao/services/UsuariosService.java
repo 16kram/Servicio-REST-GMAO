@@ -8,11 +8,13 @@ import araque.porqueras.Gmao.repositories.UsuariosRepository;
 import java.util.ArrayList;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author Esteban Porqueras
  */
+@Service
 public class UsuariosService {
 
     @Autowired

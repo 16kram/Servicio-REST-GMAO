@@ -5,11 +5,13 @@ package araque.porqueras.Gmao.repositories;
 
 import araque.porqueras.Gmao.models.Usuarios;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Esteban Porqueras
  */
-public interface UsuariosRepository extends CrudRepository<Usuarios,Integer>{
-    
+@Repository
+public interface UsuariosRepository extends CrudRepository<Usuarios, Integer> {
+
 }
