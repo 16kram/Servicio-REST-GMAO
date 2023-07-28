@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/**
+ * Clase servicio de los usuarios
  */
 package araque.porqueras.Gmao.services;
 
@@ -12,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  *
- * @author char_
+ * @author Esteban Porqueras
  */
 public class UsuariosService {
 
@@ -27,7 +26,7 @@ public class UsuariosService {
         return usuariosRepository.save(usuario);
     }
 
-    public Optional<Usuarios> obtenerPreventivoPorId(int id) {
+    public Optional<Usuarios> obtenerUsuarioPorId(int id) {
         return usuariosRepository.findById(id);
     }
 

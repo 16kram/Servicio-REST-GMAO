@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/**
+ * Clase servicio de los preventivos
  */
 package araque.porqueras.Gmao.services;
 
@@ -13,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author char_
+ * @author Esteban Porqueras
  */
 @Service
 public class PreventivosService {
@@ -32,7 +31,7 @@ public class PreventivosService {
     public Optional<Preventivos> obtenerPreventivoPorId(Long id) {
         return preventivosRepository.findById(id);
     }
-    
+
     public boolean eliminarPreventivo(Long id) {
         try {
             preventivosRepository.deleteById(id);

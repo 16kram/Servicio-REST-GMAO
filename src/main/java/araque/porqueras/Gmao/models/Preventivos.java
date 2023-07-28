@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/**
+ * Clase modelo de los preventivos
  */
 package araque.porqueras.Gmao.models;
 
@@ -13,7 +12,7 @@ import jakarta.persistence.Table;
 
 /**
  *
- * @author char_
+ * @author Esteban Porqueras
  */
 @Entity
 @Table(name = "preventivos")
@@ -34,8 +33,6 @@ public class Preventivos {
     private boolean enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre;
     private String fecha;
     private String hora;*/
-    
-    
     public Long getId() {
         return id;
     }

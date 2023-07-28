@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+/**
+ * Clase repositorio de los usuarios
  */
 package araque.porqueras.Gmao.repositories;
 
@@ -9,7 +8,7 @@ import org.springframework.data.repository.CrudRepository;
 
 /**
  *
- * @author char_
+ * @author Esteban Porqueras
  */
 public interface UsuariosRepository extends CrudRepository<Usuarios,Integer>{
     

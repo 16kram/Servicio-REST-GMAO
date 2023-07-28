@@ -1,6 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+/**
+ * Clase repositorio de los preventivos
  */
 package araque.porqueras.Gmao.repositories;
 
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author char_
+ * @author Esteban Porqueras
  */
 @Repository
 public interface PreventivosRepository extends CrudRepository<Preventivos, Long> {
